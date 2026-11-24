@@ -1,0 +1,5 @@
+model,roc_auc,pr_auc
+Logistic,0.7624,0.725
+LightGBM,0.7683,0.7296
+BG/NBD (1 - exp. orders),0.7724,0.7365
+(base rate),0.5,0.4827

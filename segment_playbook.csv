@@ -1,0 +1,21 @@
+dimension,segment,n,avg_p_churn,measured_net_lift_sgd,ci_low,ci_high,model_avg_tau_minus_cost,verdict
+acquisition_channel,Social ads,4128,0.395,1.3,-0.69,3.28,0.72,Unclear
+acquisition_channel,Partner bank promo,2804,0.408,1.05,-1.11,3.21,-0.11,Unclear
+acquisition_channel,Referral,3537,0.366,1.04,-1.57,3.64,1.77,Unclear
+acquisition_channel,Organic,5774,0.385,0.45,-1.37,2.28,0.64,Unclear
+acquisition_channel,Search ads,2875,0.381,-0.73,-3.21,1.74,0.62,Unclear
+age_band,18-24,2028,0.412,2.51,-0.24,5.26,0.93,Unclear
+age_band,25-34,4119,0.381,1.37,-0.71,3.45,0.79,Unclear
+age_band,35-44,4550,0.384,0.75,-1.34,2.83,0.63,Unclear
+age_band,45-54,4242,0.383,0.6,-1.5,2.69,1.01,Unclear
+age_band,55-64,4179,0.386,-0.99,-3.11,1.13,0.51,Unclear
+housing_type,Landed,920,0.378,3.61,-2.64,9.86,1.82,Unclear
+housing_type,HDB 1-3rm,4554,0.39,1.43,-0.19,3.06,0.76,Unclear
+housing_type,HDB 4rm,6023,0.386,0.43,-1.08,1.93,0.61,Unclear
+housing_type,Condo/Private apt,3351,0.39,0.42,-2.46,3.31,0.72,Unclear
+housing_type,HDB 5rm/EA,4270,0.384,-0.59,-2.75,1.56,0.74,Unclear
+region,West,4413,0.385,1.28,-0.81,3.38,0.86,Unclear
+region,Central,4295,0.381,0.74,-1.43,2.9,0.49,Unclear
+region,North-East,4433,0.389,0.5,-1.4,2.4,0.69,Unclear
+region,East,3262,0.388,0.45,-1.85,2.74,1.32,Unclear
+region,North,2715,0.392,-0.02,-2.7,2.66,0.42,Unclear

@@ -1,0 +1,6 @@
+housing_type,share_pct,basket_multiplier,note
+HDB 1-3rm,23.9,0.8,"SingStat GHS 2025: HDB 1-&2-room 7.3% + 3-room 16.6%"
+HDB 4rm,31.2,0.9,"SingStat GHS 2025"
+HDB 5rm/EA,22.1,1.0,"SingStat GHS 2025: 5-room & Executive"
+Condo/Private apt,17.9,1.2,"SingStat GHS 2025: Condominiums & Other Apartments"
+Landed,4.7,1.4,"SingStat GHS 2025 (the 0.2% 'Others' category is dropped and shares renormalised)"
