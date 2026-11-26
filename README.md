@@ -46,7 +46,7 @@ make all            # about a few minutes
 make survival       # included in `make all`; needs R with the `survival` package (tested with survival 3.5)
 ```
 
-## Design choices to explain in interviews
+## Design choices
 - **Snapshot design:** features use orders before the cutoff; labels use the following 90 days. Train on
   the first five cutoffs, validate on the sixth, test on the last (2025-01-01), whose label windows
   never overlap the next cutoff's features.
@@ -56,7 +56,7 @@ make survival       # included in `make all`; needs R with the `survival` packag
 - **Evaluation:** assumption-based profit chooses the cutoff (no outcome peeking); the randomized
   treated-vs-control difference measures realised incremental profit.
 
-## Results (seed 42; yours will differ slightly)
+## Results (seed 42)
 
 **Synthetic data, randomized test (19,118 in-play customers at the 2025-01-01 cutoff)**
 - LightGBM ROC-AUC 0.863 and PR-AUC 0.817 vs logistic 0.850; calibrated probabilities track observed churn by decile.
